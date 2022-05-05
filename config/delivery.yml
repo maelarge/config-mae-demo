@@ -38,7 +38,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: index.docker.io/tapsme/mck-demo-default@sha256:b6224db13800fef7293eaa1c45043f80f11bc70ff53e4695d347537eaacca2e1
+        image: index.docker.io/tapsme/mck-demo-default@sha256:9dcf0b8998ecd060d65f67a9a42c89df70dd2f52b382a533145dd59c030a1d93
         name: workload
         ports:
         - containerPort: 8080
